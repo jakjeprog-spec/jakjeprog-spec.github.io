@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Freddy's Night Defense Values</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>Freddy's Night Defense</h1>
+	<p>Official Value List</p>
+</header>
+
+<nav>
+	<button class="tab active" onclick="showTab('units')">Units</button>
+	<button class="tab" onclick="showTab('items')">Items</button>
+</nav>
+
+<main>
+	<section id="units" class="tab-content active"></section>
+	<section id="items" class="tab-content"></section>
+</main>
+
+<script src="data/units.js"></script>
+<script src="data/items.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
